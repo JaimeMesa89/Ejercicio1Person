@@ -63,11 +63,11 @@ public class Person {
         }
 
         if(numberOfMen != 0) {
-            averageMen = menAgeSum / numberOfMen;
+            averageMen = menAgeSum / (double) numberOfMen;
         }
 
         if(numberOfWomen != 0) {
-            averageWomen = womenAgeSum / numberOfWomen;
+            averageWomen = womenAgeSum / (double) numberOfWomen;
         }
 
         avergaAgePerGender[0] = averageMen;
